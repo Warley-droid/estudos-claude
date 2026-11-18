@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3</title>
+    <link rel="stylesheet" href="aula3.css">
+</head>
+<body>
+    <header>
+        <h1>Funções em JavaScript</h1>
+    </header>
+
+    <div class="container" id="container-1">
+       
+        <input type="text" name="nome" id="nome-id" placeholder="Digite seu nome">
+
+        <input type="number" name="idade" id="idade-id" placeholder="Digite sua idade">
+
+            <button id="enviar">Enviar</button>
+       
+        <p id="paragrafo-id"></p>
+    </div>
+
+    <div class="container" id="container-2">
+        
+        <input type="number" name="altura" id="altura-id" placeholder="Altura do triângulo">
+
+        <input type="number" name="base" id="base-id" placeholder="Base do triângulo">
+
+            <button onclick="calcular()" id="enviar-tri">Calcular área</button>
+
+        <p id="area-tri"></p>
+    </div>
+
+    <div class="container" id="container-3">
+        <input type="number" id="temperatura-id" name="temperatura-nome" placeholder="Temperatura em celsius">
+
+            <button onclick="calcularGraus()" id="calcular-graus">Converter</button>
+
+        <p id="convertido-id"></p>
+    </div>
+
+    <script src="aula3.js"></script>
+</body>
+</html>
