@@ -1,0 +1,33 @@
+#lista{
+    display: block;
+}
+
+li{
+    display: list-item;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.feita{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.remover{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#erro{
+    color: red;
+    font-weight: bold;
+}
+
+#contador {
+    font-weight: bold;
+}
+
+#limpar-concluidas {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
