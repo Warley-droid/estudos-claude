@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#erro {
+    color: red;
+    text-align: center;
+}
+
+#contador {
+    text-align: center;
+}
+
+#lista {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 0;
+}
+
+#lista li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#lista li.feita {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.remover {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#limpar-concluidas {
+    display: block;
+    margin: 20px auto;
+}
